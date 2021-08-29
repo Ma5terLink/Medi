@@ -1,0 +1,92 @@
+/* @import 'libs/normalize'; */
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+
+@import 'base/mixins';
+
+* {
+    position: initial;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+}
+
+.container {
+    width: 100%;
+    max-width: 1295px;
+    min-height: 0;
+    margin: 0 auto;    
+    position: relative;    
+}
+
+
+:root {
+    //colors
+    --color-black: #000;
+    --color-white: #fff;
+    --color-1: #00868a;
+    --color-2: #4fbfa5;
+    --color-3: #c4c4c4;
+
+    //font sizes
+    --fs-11: 11px;
+    --fs-12: 12px;
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-18: 18px;
+    --fs-21: 21px;
+    --fs-24: 24px;
+    --fs-28: 28px;
+    --fs-30: 30px;
+    --fs-48: 48px;
+    --fs-96: 96px;
+    //line hights
+    --lh-16: 16px;
+    --lh-19: 19px;
+    --lh-21: 21px;
+    --lh-27: 27px;
+    --lh-72: 72px;
+    --lh-150p: 150%;
+}
+
+a {
+    color: var(--color-black);
+    &:hover {
+        text-decoration: none;
+    }
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+.lighting {
+    &:hover {
+        box-shadow: 2px 2px 10px var(--color-1);
+    }
+}
+.lightingTextWhite {
+    &:hover {
+        text-shadow: 2px 2px 10px var(--color-white);
+    }
+}
+.lightingText1 {
+    &:hover {
+        text-shadow: 2px 2px 4px var(--color-1);
+    }
+}
+
+
+@import 'blocks/slider';
+@import 'blocks/titles';
+@import 'blocks/textStyles';
+@import 'blocks/menu';
+@import 'blocks/first';
+@import 'blocks/secondScreen';
+@import 'blocks/news';
+@import 'blocks/offers';
+@import 'blocks/footer';
+@import 'blocks/policy';
+@import 'blocks/pageup';
+@import 'blocks/media';

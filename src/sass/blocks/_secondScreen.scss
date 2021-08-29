@@ -1,0 +1,114 @@
+.sec_screen {
+    padding-top: 80px;
+    &__wrapper {
+        display: flex;
+    }
+    &__innovations {
+        width: 526px;
+        height: 580px;
+        background-color: var(--color-1);
+        &-title{
+            margin: 35px 0 0 40px;
+        }
+        &-text {
+            margin: 30px 0 0 40px;
+            color: var(--color-white);
+        }
+        &-link {
+            margin: 25px 0 0 40px;
+            img {
+                width: 50px;
+                margin-right: 20px;
+            }
+            a {
+                font-weight: 700;
+                font-size: var(--fs-16);
+                line-height: var(--lh-150p);
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+                color: var(--color-white);
+            }
+        }
+        &-image {
+            margin-top: 45px;
+            height: 230px;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    &__numbers {
+        position: relative;
+        width: 635px;
+        height: 485px;
+        margin: 34px 0 0 134px;
+        &-title {
+            margin: 0;
+        }
+        &-item {
+            display: flex;
+            margin-top: 30px;
+            width: 214px;
+            height: 52px;
+            opacity: 0.3;
+            &-value {
+                font-size: var(--fs-48);
+                line-height: var(--lh-150p);
+                color: var(--color-black);
+            }
+            &-text {
+                padding: 13px 0 0 20px;
+                font-size: var(--fs-14);
+                line-height: var(--lh-150p);
+                color: var(--color-black);    
+            }
+            &:nth-child(5) {
+                margin-top: 5px;
+            }
+        }
+        &-image {
+            display: block;
+            position: absolute;
+            top: 84px;
+            left: 328px;
+            z-index: -1;
+            box-shadow: 2px 2px 4px var(--color-3);
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+.opaque {
+    margin-top: 50px;
+    width: 470px;
+    height: 155px;
+    opacity: 1;
+}
+.bigValue {
+    font-size: var(--fs-96);
+    line-height: var(--lh-150p);
+    color: var(--color-1);   
+}
+.bigText {
+    padding: 26px 0 0 30px;
+    font-size: var(--fs-28);
+    line-height: var(--lh-150p);
+    color: var(--color-black);    
+}

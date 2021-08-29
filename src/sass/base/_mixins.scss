@@ -1,0 +1,6 @@
+@mixin LText-1 {
+    &:hover {
+        color: var(--color-black);
+        text-shadow: 2px 2px 4px var(--color-1);
+    }
+}
